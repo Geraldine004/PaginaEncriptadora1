@@ -6,19 +6,26 @@
         
         <link rel="stylesheet" href="Pagina.css">
     </head>
-    <body background="https://i.ytimg.com/vi/Z6eG4pemWs4/maxresdefault.jpg"> 
+    <body> 
         <header>
-            <h1>Ciframos!</h1>
+            <h1><img class="search" src="https://icons.iconarchive.com/icons/paomedia/small-n-flat/512/search-icon.png"
+                width="40" height="40"
+                >   Ciframos!</h1>
         </header>
         <p></p>
         <div>
-            <h2 id="msj">Mensaje</h2>
+            <p id="mensaje">Mensaje</p>
             <div class="caja1">
-                <textarea id="e-c" name="e-c" class="encriptado-caja" placeholder="Escribe el texto a encriptar aquí!" maxlength="120" ></textarea>
+                <textarea id="msj" name="msj" class="encriptado-caja" placeholder="Escribe el texto a encriptar aquí!" maxlength="420" ></textarea>
+                <span id="contador">0/420</span>
+                
             </div>
-            <h2 id="codigo">Código</h2>
+            <div>
+                <img src="https://image.flaticon.com/icons/png/512/306/306000.png" width="300" class="img1">
+            </div>
+            <p id="code">Código</p>
             <div class="caja2">
-                <input type="number" class="codigo-caja" placeholder="Escriba el código aquí" >
+                <input type="number" id="codigo" class="codigo-caja" placeholder="Escriba el código aquí" >
                 
             </div>
             <p></p>
@@ -31,7 +38,26 @@
                 </button>
             </div>
         </div>
+        <main>
+            <section class="modalContenedor contenedorClose">
+                <div id="mensajeResultado" class="modal modalClose">
+                    <p id="close"></p>
+                    <label for="mensajeResultado" id="labelMsjResultado">Su mensaje es</label>
+                    <div><textarea id ="msjResultado" name="textarea" class="msjResultado"></textarea></div>
+                    <div>
+                        <button id="copia" name="copia" type="button">
+                            <i class='fas fa-copy'></i>Copiar
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <div>
+                <center><img src="https://www.nibcode.com/images/contents/1130/primary.png" width="1000" class="img2"></center>
+            </div>
+        </main>
+        
         <footer>
+            <p>Footer</p>
         </footer>
         <script src="Pagina.js"></script> 
     </body>
