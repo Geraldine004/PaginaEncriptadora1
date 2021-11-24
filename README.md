@@ -2,7 +2,7 @@
 
 *<h1>Christie_Verne</h1>*
 
-De fácil uso y apto para todo público. Nuestra página te permitirá encontrar una innovadora forma de entretenerte, por ocio o por necesidad podrás encriptar y desencriptar mensajes, comunicandote de forma secreta con quien desees.  
+De fácil uso y apto para todo público. Nuestra página te permitirá encontrar una innovadora forma de entretenerte, por ocio o necesidad podrás encriptar y desencriptar mensajes, comunicandote de forma secreta con quien desees.  
 
 
 ¿Cómo funciona nuestra página?
