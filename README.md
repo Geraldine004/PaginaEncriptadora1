@@ -1,7 +1,9 @@
 # PaginaEncriptadora1
-Christie
 
-De fácil uso y apto para todo público. Una manera divertida de pasar el tiempo, escribe mensajes, encriptalos e invita a tus amigos a tratar de adivinar. 
+*<h1>Christie_Verne</h1>*
+
+De fácil uso y apto para todo público. Nuestra página te permitirá encontrar una innovadora forma de entretenerte, por ocio o por necesidad podrás encriptar y desencriptar mensajes, comunicandote de forma secreta con quien desees.  
+
 
 ¿Cómo funciona nuestra página?
 1. Pon tu mensaje en el primer cuadro
