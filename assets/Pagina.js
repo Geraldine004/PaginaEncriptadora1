@@ -33,14 +33,14 @@ function getLetter(letter, codigo){
 }
 
 function letterValidate(letter){
-    let idLetter = 0; 
-    if(letter >=65 && letter<=90){ idLetter = 65;} 
-    if(letter >=97 && letter<=122){ idLetter = 97;} 
-    if(letter >=48 && letter<=57){ idLetter = 48;} 
+    let idLetter = 0; //Number of initial position in ASSCI
+    if(letter >=65 && letter<=90){ idLetter = 65;} // Uppercase
+    if(letter >=97 && letter<=122){ idLetter = 97;} // Lowercase
+    if(letter >=48 && letter<=57){ idLetter = 48;} // Numbers
     return idLetter;
 }
 
-
+/* Comienza la segunda pag*/
 const txtMsj = document.getElementById("msj");
 const contador = document.getElementById("contador");
 const codigo = document.getElementById("codigo");
@@ -91,6 +91,18 @@ btnCopia.addEventListener("click",()=>{
     }, 100);
 });
 
+/*
+close.addEventListener("click",()=>{
+    closeModal();
+});
+
+window.addEventListener("click",(e)=>{
+    if(e.target == modalC){
+        closeModal();
+    }
+});
+*/
+
 function openModal(){
     modalC.classList.remove("contenedorClose");
     modal.classList.remove("modalClose");
@@ -100,8 +112,16 @@ function closeModal(){
     modal.classList.add("modalClose");
     clearMsj();
     setTimeout(()=>{
-        btnCopia.innerHTML = "<i class='ffcopia'></i> Copiar";
+        btnCopia.innerHTML = "<i class='fas fa-copy'></i> Copiar";
         modalC.classList.add("contenedorClose");
     }, 550);
 }
+
+/*
+function clearMsj(){
+    txtMsj.value = "";
+    txtMsj.innerHTML = "";
+    contador.innerHTML = "0/420";
+}
+  */
 
