@@ -10,6 +10,4 @@ De fácil uso y apto para todo público. Nuestra página te permitirá encontrar
 2. Ingresa la clave secreta
 3. Haz clic en "Encriptar" o "Desencriptar", según lo que desees hacer
 
-<p align="center" width="100%">
-<img src="https://static.vecteezy.com/system/resources/previews/001/311/865/original/program-coding-concept-vector.jpg" width="300"/>
-</p>
+<img src="https://static.vecteezy.com/system/resources/previews/001/311/865/original/program-coding-concept-vector.jpg" width="300">
