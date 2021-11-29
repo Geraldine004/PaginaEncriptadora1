@@ -9,5 +9,6 @@ De fácil uso y apto para todo público. Nuestra página te permitirá encontrar
 1. Pon tu mensaje en el primer cuadro
 2. Ingresa la clave secreta
 3. Haz clic en "Encriptar" o "Desencriptar", según lo que desees hacer
-
-<img src="https://static.vecteezy.com/system/resources/previews/001/311/865/original/program-coding-concept-vector.jpg" width="300">
+<p align="center">
+  <img src="https://static.vecteezy.com/system/resources/previews/001/311/865/original/program-coding-concept-vector.jpg" width="300"/>
+</p>
