@@ -95,3 +95,13 @@ function openModal(){
     modalC.classList.remove("contenedorClose");
     modal.classList.remove("modalClose");
 }
+
+function closeModal(){
+    modal.classList.add("modalClose");
+    clearMsj();
+    setTimeout(()=>{
+        btnCopia.innerHTML = "<i class='ffcopia'></i> Copiar";
+        modalC.classList.add("contenedorClose");
+    }, 550);
+}
+
